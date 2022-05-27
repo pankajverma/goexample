@@ -1,12 +1,12 @@
 package shortner
 
 import (
-	"code/icus/pkg/data"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"math/rand"
 	"net/http"
+	"pkg/data"
 
 	// "net/http" // REST framework
 	"time"

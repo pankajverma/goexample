@@ -1,9 +1,9 @@
 package main
 
 import (
-	"code/icus/pkg/shortner"
 	"fmt"
 	"net/http"
+	"pkg/shortner"
 
 	"github.com/gorilla/mux"
 	// "net/http"

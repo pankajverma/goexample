@@ -3,14 +3,15 @@ package main
 import (
 	"net/http"
 
-	"stash.edgewaternetworks.com/scc/gin_prj/redirecthttp"
-	"stash.edgewaternetworks.com/scc/gin_prj/routergrouping"
-	"stash.edgewaternetworks.com/scc/gin_prj/securejson"
+	"redirecthttp"
+	"routergrouping"
+	"securejson"
+
+	"customevalidator"
+	"modalbinding"
 
 	"github.com/gin-gonic/gin/binding"
 	"gopkg.in/go-playground/validator.v8"
-	"stash.edgewaternetworks.com/scc/gin_prj/customevalidator"
-	"stash.edgewaternetworks.com/scc/gin_prj/modalbinding"
 
 	"github.com/gin-gonic/gin"
 )

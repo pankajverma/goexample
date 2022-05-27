@@ -3,8 +3,9 @@ package routergrouping
 import (
 	"net/http"
 
+	"modal"
+
 	"github.com/gin-gonic/gin"
-	"stash.edgewaternetworks.com/scc/gin_prj/modal"
 )
 
 /*
